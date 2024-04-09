@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mensaje = $_POST['mensaje'];
     
     // Dirección de correo a la que se enviará el mensaje
-    $destinatario = "kevin.jaramillo0505@gmail.com";
+    $destinatario = "elvis.pachacama@itq.edu.ec";
 
     // Asunto del correo
     $asunto = "Nuevo mensaje de contacto de $nombre";
